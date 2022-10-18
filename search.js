@@ -33,6 +33,7 @@ windows.onload = function buttonClicked() {
     outputField.innerHTML = "The pattern is present at the following indexes: " + RKSearch(pattern, text, q);
     
     // Finds time for each algorithm and prints it
+    // Timing based on https://dev.to/saranshk/how-to-measure-javascript-execution-time-5h2#:~:text=The%20easiest%20way%20to%20track,the%20difference%20of%20the%20two.
     const RKstart = Date.now();
     RKSearch(pattern, text, q);
     const RKend = Date.now();
