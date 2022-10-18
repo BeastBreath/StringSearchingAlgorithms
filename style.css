@@ -1,0 +1,40 @@
+/* Got inspiration from: https://www.w3schools.com/css/css3_buttons.asp */
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px
+}
+
+/* Got inspiration from: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_textarea */
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: grabber;
+}
+
+.patTextArea {
+  height: 50px;
+}
+
+.txtTextArea {
+  height: 150px;
+}
+
+
+/*Code based on https://www.stechies.com/center-css-button/*/
+.button-container-div {
+  text-align: center;
+  height: 45px;
+  width: 100%;
+}
