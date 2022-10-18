@@ -13,7 +13,8 @@ let q = 101;
 let d = 256;
 
 // Code for if the button is clicked
-document.getElementById("find").onclick = buttonClicked;
+var searchButton = document.getElementById("find");
+searchButton.onclick = buttonClicked;
 
 // Function for if the button is clicked
 function buttonClicked() {
