@@ -17,7 +17,7 @@ var searchButton = document.getElementById("find");
 searchButton.onclick = buttonClicked;
 
 // Function for if the button is clicked
-function buttonClicked() {
+windows.onload = function buttonClicked() {
 
 	// Gets the pattern and text from input boxes
   var pattern = document.getElementById("p").value;
